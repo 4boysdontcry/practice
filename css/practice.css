@@ -1,7 +1,7 @@
 /****************common*****************/
 html, body {font-size: 14px; height: 8000px; color: #121212;}
-.wrapper {max-width: 1400px; margin: auto;}
-.top-bar {margin-top: 2em; border-bottom: 1px solid #eee; padding: 1em; font-size: 2em;}
+.wrapper {max-width: 1400px; margin: auto; padding: 0 1em;}
+.top-bar {margin: 2em 0 1em 0; border-bottom: 1px solid #eee; padding: 1em; font-size: 2em;}
 
 
 /****************header*****************/
@@ -18,19 +18,29 @@ html, body {font-size: 14px; height: 8000px; color: #121212;}
 .main-wrapper > .main-wrap {position: relative;}
 .main-wrapper > .main-wrap > .main-img {width: 100%;}
 .main-wrapper > .main-wrap > h2.title {position: absolute; left: calc(50% - 125px); top: calc(50% - 21px); text-align: center; color: #fff;}
-.main-wrapper > .main-wrap > h2.title > span {background-color: #121212; color: #fff; font-weight: bolder; padding: .2em .3em; opacity: .8;}
+.main-wrapper > .main-wrap > h2.title > span.logo {background-color: #121212; color: #fff; font-weight: bolder; padding: .2em .3em; opacity: .8;}
 
 
 /****************project*****************/
 .pro-wrapper{}
-.pro-wrapper > .pro-wrap{width: 100%;}
-.pro-wrapper > .pro-wrap > .content{}
-.pro-wrapper > .pro-wrap > .content > img{float: left; width: 24%; margin-right: 1%;}
-.pro-wrapper > .pro-wrap > .content > img:4th-child{margin-right: 0;}
+.pro-wrapper > .pro-wrap{width: 101%;}
+.pro-wrapper > .pro-wrap > .content{float: left; width: 24%; height: 49%; margin:0 1% 1% 0; position: relative;}
+.pro-wrapper > .pro-wrap > .content > img{width: 100%;}
+.pro-wrapper > .pro-wrap > .content > p {position: absolute; top: 0px; background-color: #121212; color: #f9f9f9; padding: .5em 1em; font-size: 1.25em;}
 
 
 /****************about*****************/
-
+.about-wrapper {font-size: 1.25em;}
+.about-wrapper > .title {line-height: 1.25;}
+.about-wrapper > .about-wrap {width: 101%;}
+.about-wrapper > .about-wrap > .about {float: left; width: 24%; margin-right:1%; padding-top: 2em;}
+.about-wrapper > .about-wrap > .about > img {width: 100%;}
+.about-wrapper > .about-wrap > .about > .intro > * {text-align: left; padding-top: 1em;}
+.about-wrapper > .about-wrap > .about > .intro > h2 {font-weight: 600;}
+.about-wrapper > .about-wrap > .about > .intro > h3 {font-size: .85em; color: #555;}
+.about-wrapper > .about-wrap > .about > .intro > p {line-height: 1.5em;}
+.about-wrapper > .about-wrap > .about > .intro > button {width: 100%; text-align: center; background-color: #eee; padding: .5em; margin-top: 1em;}
+.about-wrapper > .about-wrap > .about > .intro > button:hover {background-color: #ccc;}
 
 
 /****************contact*****************/
@@ -51,7 +61,9 @@ html, body {font-size: 14px; height: 8000px; color: #121212;}
 
 
 @media (max-width: 768px){
-
+.main-wrapper > .main-wrap > h2.title > span.lost {display: none;}
+.header-wrapper > .navi-wrap {display: none;}
+.pro-wrapper > .pro-wrap > .content{width: 100%;}
 }
 
 
