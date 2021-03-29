@@ -1,5 +1,5 @@
 /****************common*****************/
-html, body {font-size: 14px; height: 8000px; color: #121212;}
+html, body {font-size: 14px; color: #121212;}
 .wrapper {max-width: 1400px; margin: auto; padding: 0 1em;}
 .top-bar {margin: 2em 0 1em 0; border-bottom: 1px solid #eee; padding: 1em; font-size: 2em;}
 
@@ -44,11 +44,21 @@ html, body {font-size: 14px; height: 8000px; color: #121212;}
 
 
 /****************contact*****************/
-
+.contact-wrapper {}
+.contact-wrapper > .title {}
+.contact-wrapper > .contact-wrap {}
+.contact-wrapper > .contact-wrap > .content {font-size: 1.25em;}
+.contact-wrapper > .contact-wrap > .input {width: 100%; border: 1px solid #ccc; padding: .75em; margin: 1em 0 .5em 0;}
+.contact-wrapper > .contact-wrap > .bt-send {padding: .75em 1em; background-color: #121212; color: #f9f9f9; border-radius: .25em; margin: 1em 0 3em 0;}
+.contact-wrapper > .contact-wrap > .bt-send:hover {background-color: #ccc; color: #f9f9f9;}
+.contact-wrapper > .contact-wrap > .contact-img {width: 100%;}
 
 
 /****************footer*****************/
-
+.footer-wrapper {}
+.footer-wrapper > .footer-wrap {margin-top: 1em; background-color: #121212;}
+.footer-wrapper > .footer-wrap > .footer-ment {text-align: center; color: #f9f9f9; padding: 3em 0 3em 0;}
+.footer-wrapper > .footer-wrap > .footer-ment a:hover {text-decoration: underline;}
 
 
 
@@ -56,6 +66,7 @@ html, body {font-size: 14px; height: 8000px; color: #121212;}
 
 /****************response*****************/
 @media (max-width: 574px){
+  .about-wrapper > .about-wrap > .about {width: 100%;}
 
 }
 
@@ -64,6 +75,7 @@ html, body {font-size: 14px; height: 8000px; color: #121212;}
 .main-wrapper > .main-wrap > h2.title > span.lost {display: none;}
 .header-wrapper > .navi-wrap {display: none;}
 .pro-wrapper > .pro-wrap > .content{width: 100%;}
+.about-wrapper > .about-wrap > .about {width: 49%;}
 }
 
 
