@@ -1,5 +1,5 @@
 /****************common*****************/
-html, body {font-size: 14px; color: #121212;}
+html, body {font-size: 14px; font-family: Verdana, sans-serif; color: #121212;}
 .wrapper {max-width: 1400px; margin: auto; padding: 0 1em;}
 .top-bar {margin: 2em 0 1em 0; border-bottom: 1px solid #eee; padding: 1em; font-size: 2em;}
 
@@ -34,7 +34,7 @@ html, body {font-size: 14px; color: #121212;}
 .about-wrapper > .title {line-height: 1.25;}
 .about-wrapper > .about-wrap {width: 102%;}
 .about-wrapper > .about-wrap > .about {float: left; width: 23%; margin-right:2%; margin-bottom: 2%; padding-top: 2em;}
-.about-wrapper > .about-wrap > .about > img {width: 100%;}
+.about-wrapper > .about-wrap > .about > img {width: 100%; filter: grayscale(80%);}
 .about-wrapper > .about-wrap > .about > .intro > * {text-align: left; padding-top: 1em;}
 .about-wrapper > .about-wrap > .about > .intro > h2 {font-weight: 600;}
 .about-wrapper > .about-wrap > .about > .intro > h3 {font-size: .85em; color: #555;}
